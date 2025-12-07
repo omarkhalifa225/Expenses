@@ -42,7 +42,7 @@ function tableExpense(){
         cartona +=`
         <tr>
                 <td>`+ExpenseContianer[i].name+`</td>
-                <td>`+ExpenseContianer[i].price+`</td>
+                <td>جنيه`+ExpenseContianer[i].price+`</td>
                 <td>`+ExpenseContianer[i].category+`</td>
                 <td>`+ExpenseContianer[i].date+`</td>
                 <td><button onclick="deleteExprense(`+i+`)" class="btn btn-outline-danger">Delete</button></td>

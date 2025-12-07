@@ -1,52 +1,28 @@
 @media screen and (max-width:600px) {
-    .continer_Main{
-    width: 80%;
-    height: auto;
-    margin: 20px;
-    }
-    form{
-    height: 150px;
-    }
-    input{
-        width: 170px;
-        font-size: 1.1rem;
-    }
-    label{
-        font-size:1.1rem;
-    }
-    h1,h2,h3,h4,h5,h6{
-        font-size: 1.1rem;
-    }
-  .name{
-    position: relative;
-    left:-30px;
-  }
- .Ename{
-    left:48px;
+ 
+
+ .form-grid{
+    grid-template-columns: 1fr;
  }
-.price{
-    position: relative;
-    bottom: 76px;
-    left:54%;
-}
-.Eprice{
- left:20px;
-}
-.category{
-    bottom:70px;
-    left:21px;
-}
-.Ecategory{
-    position: relative;
-    bottom:32px;
-    left:-34.5%;
-}
-.date{
-bottom: 70px;
-left:12px;
-}
-.Edate{
-    bottom:105px;
-    left:72px;
-}
+ 
+     .continer-main{
+    margin: 20px auto;
+    padding: 16px;
+    }
+    .continer-main label{
+        font-size: 1.2rem;
+    }
+    .table{
+        min-width: 0;
+        font-size: 1.1rem;
+    }
+    .input{
+        width: 100%;
+        margin-left:0px;
+    }
+    .add{
+        width: 30%;
+        padding: 10px;
+    }
+   
 }

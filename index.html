@@ -9,9 +9,10 @@
     <title>Expenses</title>
   </head>
   <body>
-    <section class="continer_Main">
+    <section class="continer-main">
       <h1>Expense Tracker</h1>
-      <form >
+      <form class="form">
+        <div class="form-grid">
       <label for="name" class="Ename">Name</label>
       <input type="text" class="input name" id="name" />
       <label for="price" class="Eprice">Price</label>
@@ -20,9 +21,12 @@
       <input type="text" class="input category" id="category" />
       <label for="date" class="Edate">Date</label>
       <input type="date" class="input date" id="date" />
+      </div>
     </form>
+    <div class="action">
       <button onclick="displayExprenses();" class="add">add Expense</button>
-      <div class="container">
+      </div>
+      <div class="table-wrap">
       <table class="table w-80">
         <thead class="thead">
             <th>Name</th>
