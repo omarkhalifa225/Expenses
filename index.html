@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/responsive.css">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <title>Expenses</title>
+  </head>
+  <body>
+    <section class="continer_Main">
+      <h1>Expense Tracker</h1>
+      <form >
+      <label for="name" class="Ename">Name</label>
+      <input type="text" class="input name" id="name" />
+      <label for="price" class="Eprice">Price</label>
+      <input type="number" class="input price" id="price" />
+      <label for="category" class="Ecategory">Category</label>
+      <input type="text" class="input category" id="category" />
+      <label for="date" class="Edate">Date</label>
+      <input type="date" class="input date" id="date" />
+    </form>
+      <button onclick="displayExprenses();" class="add">add Expense</button>
+      <div class="container">
+      <table class="table w-80">
+        <thead class="thead">
+            <th>Name</th>
+            <th>Price</th>
+            <th>Category</th>
+            <th>Date</th>
+            <th>Delete</th>
+        </thead>
+        <tbody class="tbody" id="tbody"> 
+        
+        </tbody>
+      </table>
+    
+    </div>
+    </section>
+
+    <script src="script/script.js"></script>
+  </body>
+</html>

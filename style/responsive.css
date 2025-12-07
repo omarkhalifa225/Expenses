@@ -1,0 +1,52 @@
+@media screen and (max-width:600px) {
+    .continer_Main{
+    width: 80%;
+    height: auto;
+    margin: 20px;
+    }
+    form{
+    height: 150px;
+    }
+    input{
+        width: 170px;
+        font-size: 1.1rem;
+    }
+    label{
+        font-size:1.1rem;
+    }
+    h1,h2,h3,h4,h5,h6{
+        font-size: 1.1rem;
+    }
+  .name{
+    position: relative;
+    left:-30px;
+  }
+ .Ename{
+    left:48px;
+ }
+.price{
+    position: relative;
+    bottom: 76px;
+    left:54%;
+}
+.Eprice{
+ left:20px;
+}
+.category{
+    bottom:70px;
+    left:21px;
+}
+.Ecategory{
+    position: relative;
+    bottom:32px;
+    left:-34.5%;
+}
+.date{
+bottom: 70px;
+left:12px;
+}
+.Edate{
+    bottom:105px;
+    left:72px;
+}
+}

@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.continer_Main{
+    position: relative;
+    max-width:600px;
+    height: auto;
+    margin:100px 0px 0px 190px;
+    border-radius:8px;
+    box-shadow: 0 0 3px #686868;
+
+}
+.continer_Main h1{
+    position: relative;
+    text-align: center;
+top:20px;
+}
+form{
+    margin-top: 70px;
+}
+
+.Ename,.Ecategory{
+position: relative;
+    bottom:38px;
+    left:75px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.Eprice,.Edate{
+    position: relative;
+    bottom: 38px;
+    left:43px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.Edate{
+    
+    left:18px;
+}
+input{
+    max-width:200px;
+    width:100%;
+    padding: 5px;
+    border-radius: 5px;
+}
+.input{
+    position: relative;
+    margin:20px;
+    padding-left:7px;
+    border:1px #868686 solid;
+ transition: 0.3s 0s ease;
+}
+.input:focus{
+    outline: none;
+border:1px #868686 solid;
+box-shadow: -0px -0px 6px #66b3ff,
+        0px 0px 6px #66b3ff;
+}
+.category{
+    right: 25px;
+}
+.price{
+    right: 25px;
+}
+.date{
+     margin: 10px;
+    right: 40px;
+    cursor: pointer;
+}
+.add {
+    width: 100;
+    height: 32;
+    margin: 20 0 0 9.5%;
+    position: relative;
+    left:42%;
+    top:20px;
+    background-color: #ffffff;
+    color: rgb(57, 175, 175);
+    border: #30c5c5 1px solid;
+    border-radius: 3px;
+    padding: 5px;
+    cursor: pointer;
+    transition: 0.2s 0.1s;
+}
+
+.add:hover {
+    background-color: rgb(57, 175, 175);
+    color: #fff;
+}
+.add:focus{
+    outline:none;
+}
+.table{
+    
+    margin:50px 50px 0px 0px;
+    text-align: center;
+}
