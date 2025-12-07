@@ -13,7 +13,7 @@ tableExpense();
 
 function displayExprenses(){
     if(!Expense_name.value === "" || Expense_date.value === "" || Expense_category.value === "" || Expense_price.value === ""){
-        window.alert('a7aaaa');
+        window.alert('ارجواملاء البيانات');
         return;
     }
     let Expense={
